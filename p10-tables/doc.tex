@@ -1,0 +1,22 @@
+\documentclass{article}
+\title{My tenth document}
+\author{John Doe}
+\begin{document}
+   \maketitle
+
+  Table \ref{tbl:results} on page \pageref{tbl:results} explains the results.
+
+\begin{table}[htb]
+\center
+\begin{tabular}{l|r}
+Section & Number \\ 
+\hline
+Section A & 2323 \\ 
+Section B & 123 \\ 
+Section C & 686 \\ 
+\end{tabular}
+\caption{Numbers for sections}
+\label{tbl:results}
+\end{table}
+
+\end{document}

@@ -1,0 +1,51 @@
+\documentclass{beamer}
+\usepackage{color}
+\title{My first presentation}
+\author{John Doe}
+\institute{City University}
+\mode<presentation>{\usetheme{Frankfurt} \usecolortheme{dove}}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+\subsection{}
+
+\begin{frame}
+\frametitle{The first frame}
+\begin{itemize}
+\item Location \pause
+\item Time \pause
+\item Battery status \pause
+\item Internet/network availability and bandwidth \pause
+\item Sound (mute/volume) \pause
+\item User language, nationality and preferences
+\end{itemize}
+\end{frame}
+
+\section{Main}
+\subsection{}
+
+\begin{frame}
+\frametitle{One frame}
+With nothing on it.
+\end{frame}
+
+\begin{frame}
+\frametitle{Another frame}
+With nothing on it.
+\end{frame}
+
+\section{Conclusions}
+\subsection{}
+
+\begin{frame}
+\frametitle{More animations}
+On all of them.
+\only<1>{Only on the first one \\}
+\only<2->{From the second on \\}
+\only<2-3>{Only on the second and third one \\}
+\only<4>{Only on the last one \\}
+\end{frame}
+
+\end{document}

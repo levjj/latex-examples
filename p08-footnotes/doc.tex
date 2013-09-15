@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{endnotes}
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\renewcommand{\theendnote}{\alph{endnote}}
+\title{My eighth document}
+\author{John Doe}
+\begin{document}
+   \maketitle
+   
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis lacus tortor, non accumsan neque? Donec interdum, sem vitae pretium malesuada, eros tortor dictum leo, et semper dui est ac libero. Sed nec nisi diam? Mauris placerat\footnote{sem et volutpat mattis} nulla lorem ultrices nisi, sit amet sagittis lorem tortor et risus. Morbi augue volutpat. 
+   
+   Consectetur adipiscing elit\footnote{Quisque rutrum adipiscing cursus.} Morbi lacinia ante sed nulla mollis congue. Duis consequat vulputate mi, id aliquam lorem cursus congue\endnote{Praesent ac magna pretium erat lacinia euismod.}. Vivamus mattis sem eu sem porttitor pharetra varius vitae lacus. Nam consequat dapibus tincidunt volutpat.
+   
+   Fusce molestie enim accumsan diam suscipit vehicula. Phasellus cursus risus id lorem pellentesque sit amet pulvinar quam dictum. Aenean a tortor tortor\endnote{Nam dignissim lectus vitae mauris semper mattis.}. Proin neque orci, imperdiet vel molestie nec, ultrices a felis. Vestibulum ultricies metus.
+   
+   Nulla at leo libero, quis lacinia nisl. Aenean ornare ullamcorper dui, sit amet viverra metus mollis ac\footnote{Etiam ac est in orci ultricies mollis.}. Nulla dictum condimentum mi. Morbi non auctor turpis. Pellentesque vel ipsum nibh, eget semper ipsum! Integer feugiat diam sit amet nisi euismod sed.
+   
+   \theendnotes
+
+\end{document}

@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{graphicx}
+\title{My seventh document}
+\author{John Doe}
+\begin{document}
+   \maketitle
+   I would like to show you the following picture: \\
+   
+   Where is it?   \\
+   
+   Oh, it is on page \pageref{fig:hepburn}. \\
+   
+   \begin{figure}
+   \center
+   \includegraphics[width = 0.75\textwidth]{AudreyHepburn}
+   \caption{Audrey Hepburn}
+   \label{fig:hepburn}
+   \end{figure}
+   
+   As you have seen in Figure \ref{fig:hepburn} on page \pageref{fig:hepburn}, there is a picture in this document.   
+   
+\end{document}

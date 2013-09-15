@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage{amsmath}
+\linespread{1.75}
+\renewcommand{\t}[1]{~\text{\small{#1}}~}
+\title{My eleventh document}
+\author{John Doe}
+\begin{document}
+   \maketitle
+   I will now have one line of mathematical formula:
+   
+   $c = \sqrt{a^2 + b^2}$
+   
+   Was that okay?
+   
+   Now let's put a more complicated formula here:
+   
+   $e^x = \displaystyle\sum^{\infty}_{n=0} \frac{x^n}{n!}
+        = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + ...$
+   
+   Finally, here comes a whole proof with multiple lines:
+   
+\[\begin{matrix}
+
+\textbf{Proposition} &               & ^{n}P = n! \\
+\textbf{Proof}       &               & \t{by induction over}n \\
+\t{Step 1:}          & \t{For} n = 1 & ^{1}P = \t{number of ways to permute one object} \\
+                     &               &= 1 \\
+                     &               &= 1! \\
+\t{Step 2:}          & \t{For} n = i & ^{i+1}P =\t{number of ways to permute} i+1 \t{objects} \\
+                     &               &= ^{i}P ~\cdot~ (i+1) \\
+                     &               & \t{because the next element can be put at}i+1\t{different places} \\[0.6em]
+                     &               &= i! ~\cdot~ (i+1) \\
+                     &               &= (i+1)!
+
+\end{matrix}\]
+   
+   
+\end{document}
